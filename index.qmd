@@ -6,7 +6,7 @@ lang: pt-PT
 
 ## Sobre o Estudo
 
-**GlucoCheck: Controlo Glicémico na DMT2
+**GlucoCheck: Controlo Glicémico na DMT2**
 
 Este site apresenta o ensaio clínico randomizado que avalia a eficácia da aplicação móvel GlucoCheck na otimização do controlo glicémico em pacientes com Diabetes Mellitus Tipo 2.
 

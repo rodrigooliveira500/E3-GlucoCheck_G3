@@ -16,3 +16,9 @@ website:
         text: Resultados
       - href: Equipa.qmd
         text: Equipa
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    lang: pt-PT
