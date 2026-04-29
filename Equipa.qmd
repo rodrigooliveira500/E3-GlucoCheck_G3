@@ -1,0 +1,20 @@
+---
+title: "Equipa"
+format: html
+lang: pt-PT
+---
+
+## Investigadores
+
+| Nome | Afiliação |
+|------|-----------|
+| Diana Lopes | Faculdade de Medicina da Universidade do Porto |
+| José Ferreira | Faculdade de Medicina da Universidade do Porto |
+| Rodrigo Oliveira | Faculdade de Medicina da Universidade do Porto |
+| Tomás Santos | Faculdade de Medicina da Universidade do Porto |
+
+## Contacto 
+
+**Email:** up202508158@med.up.pt
+
+**Instituição:** Faculdade de Medicina da Universidade do Porto

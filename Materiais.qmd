@@ -1,0 +1,38 @@
+---
+title: "Materias"
+format: html
+lang: pt-PT
+---
+
+## Instrumentos de Recolha de Dados
+
+### eCRF - REDCap
+
+O formulário eletrónico de recolha de dados (eCRF) foi desenvolvido na plataforma REDCap e estruturado em 8 formulários sequenciais:
+
+| Formulário | Descrição |
+|------------|-----------|
+| Identificação | ID do participante, data de amissão e dados demográficos |
+| Consentimento | Documentação do consentimento informado |
+| Triagem | Critérios de inclusão/exclusão e randomização |
+| Baseline (T0) | Avaliação física inicial e configuração da app |
+| Seguimento M3 | Reavaliação aos 3 meses |
+| Seguimento M6 | Avaliação final aos 6 meses |
+| Escalas | Diabetes empowerment Scale - Short Form (DES-SF) |
+| Feedback | Satisfação com a aplicação GlucoCheck |
+
+### Diconário de Dados
+
+O dicionário de dados contém todas as variáveis recolhidas no estudo, com validações, lógica condicional e campos calculados.
+
+### Aplicação GlucoCheck
+
+A aplicação móvel GlucoCheck integra as seguintes funcionalidades:
+
+- Sincronização automática com glucómetro via Bluetooth
+- Registo alimentar com feedback nutricional
+- Objetivos glicémicos semanais personalizdos
+- Mensagens motivacionais baseadas em progresso
+- Educação nutricional adaptativa
+- Gráficos de evolução de HbA1c estimada
+- Alertas para padrões glicémicos problemáticos

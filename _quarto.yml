@@ -1,0 +1,18 @@
+project: 
+  type : website
+  output-dir: docs
+  
+website: 
+  title: "GlucoCheck"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: Protocolos.qmd
+        text: Protocolo
+      - href: Materiais.qmd
+        text: Materiais
+      - href: Resultados.qmd
+        text: Resultados
+      - href: Equipa.qmd
+        text: Equipa
