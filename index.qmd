@@ -19,6 +19,19 @@ Este site apresenta o ensaio clínico randomizado que avalia a eficácia da apli
 | **Duração** | 6 meses |
 | **Outcome primário** | Redução da HbA1c aos 6 meses | 
 
+## Objetivo Primário
+
+Avaliar a redução da **HbA1c aos 6 meses** em doentes com Diabetes 
+Mellitus Tipo 2 submetidos à intervenção digital GlucoCheck, 
+comparativamente ao grupo de controlo com cuidados habituais isolados.
+
+## Participantes
+
+- **30 participantes** aleatorizados (15 intervenção, 15 controlo)
+- Critérios de inclusão: diagnóstico de DMT2, HbA1c entre 7,0% e 9,5%,
+  sem insulinoterapia, em seguimento em cuidados primários
+
+
 ## Equipa 
 
 | Nome | Afiliação |
