@@ -1,5 +1,76 @@
+
 ---
 title: "Resultados"
 format: html
 lang: pt-PT
 ---
+
+## Características Inicais
+
+Informações sobre os participantes no início do estudo (antes de qualquer intervenção).
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(here)
+library(gtsummary)
+
+dados <- read_csv(here("data", "glucocheck.csv"))
+
+dados |>
+  select(grupo, idade, sexo,
+         hba1c_baseline, glicemia_jejum_baseline,
+         peso_baseline) |>
+  tbl_summary(
+    by = grupo,
+    label = list(
+      idade                   ~ "Idade (anos)",
+      sexo                    ~ "Sexo",
+      hba1c_baseline          ~ "HbA1c basal (%)",
+      glicemia_jejum_baseline ~ "Glicemia jejum basal (mg/dL)",
+      peso_baseline           ~ "Peso basal (kg)"
+    )
+  ) |>
+  add_overall() |>
+  add_p()
+```
+
+## Outcome primário — HbA1c aos 6 meses
+
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 4
+
+ggplot(
+  dados |> filter(!is.na(hba1c_6meses)),
+  aes(x = grupo,
+      y = hba1c_6meses,
+      colour = grupo)
+) +
+  geom_boxplot(outlier.shape = NA, width = 0.4) +
+  geom_jitter(width = 0.12, alpha = 0.7, size = 2.5) +
+  scale_colour_manual(
+    values = c(
+      "intervencao" = "#2C3E50",
+      "controlo"    = "#7A9B9E"
+    )
+  ) +
+  labs(
+    x     = "Grupo",
+    y     = "HbA1c aos 6 meses (%)",
+    title = "GlucoCheck: outcome primário"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "none")
+```
+
+## Interpretação
+
+O grupo de intervenção apresentou uma redução da HbA1c superior ao grupo de controlo ao fim de 6 meses, sugerindo um efeito positivo da monitorização digital contínua de glicose na gestão da diabetes tipo 2.
+
+
+
