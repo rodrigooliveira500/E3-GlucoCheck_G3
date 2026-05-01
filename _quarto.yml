@@ -1,10 +1,12 @@
-project: 
-  type : website
+project:
+  type: website
   output-dir: docs
-  
-website: 
-  title: "GlucoCheck"
+
+website:
+  title: "Ensaio GlucoCheck"
   navbar:
+    background: "#1a5276"
+    foreground: white
     left:
       - href: index.qmd
         text: Início
@@ -16,9 +18,10 @@ website:
         text: Resultados
       - href: Equipa.qmd
         text: Equipa
-        
+
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
-    lang: pt-PT
+    toc: true
+    toc-title: "Nesta página"

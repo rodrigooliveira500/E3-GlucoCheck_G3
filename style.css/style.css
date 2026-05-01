@@ -1,0 +1,55 @@
+/* Cores principais */
+:root {
+  --primary: #1a5276;
+  --secondary: #2e86c1;
+  --accent: #aed6f1;
+  --light: #eaf4fb;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: var(--primary);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 6px;
+}
+
+/* Cards de destaque */
+.card-destaque {
+  background: var(--light);
+  border-left: 5px solid var(--secondary);
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin: 16px 0;
+}
+
+/* Tabelas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid var(--accent);
+}
+
+tr:hover {
+  background-color: var(--light);
+}
+
+/* Botões */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
