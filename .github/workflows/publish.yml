@@ -13,6 +13,7 @@ jobs:
           packages: |
             tidyverse
             gtsummary
+            here
       - uses: quarto-dev/quarto-actions/setup@v2
       - run: quarto render
       - uses: quarto-dev/quarto-actions/publish@v2
