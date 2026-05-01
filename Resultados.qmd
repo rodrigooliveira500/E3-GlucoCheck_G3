@@ -15,7 +15,6 @@ Informações sobre os participantes no início do estudo (antes de qualquer int
 #| warning: false
 
 library(tidyverse)
-library(here)
 library(gtsummary)
 
 dados <- read_csv(here("data", "glucocheck.csv"))
