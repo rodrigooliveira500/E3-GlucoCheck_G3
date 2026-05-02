@@ -49,7 +49,7 @@ A **Diabetes Empowerment Scale Short Form** (DES-SF) é composta por 8 itens ava
 | 7 | Peço ajuda quando preciso |
 | 8 | Lido com o stress da diabetes |
 
-### Diconário de Dados
+### Dicionário de Dados
 
 O dicionário de dados contém todas as variáveis recolhidas no estudo, com validações, lógica condicional e campos calculados.
 
