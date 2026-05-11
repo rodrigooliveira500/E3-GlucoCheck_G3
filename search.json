@@ -133,6 +133,55 @@
     "text": "Contacto Geral\nInstituição: Faculdade de Medicina da Universidade do Porto\nEndereço: Alameda Prof. Hernâni Monteiro, 4200-319 Porto, Portugal"
   },
   {
+    "objectID": "declaracaodeia.html",
+    "href": "declaracaodeia.html",
+    "title": "Declaração de Utilização de Inteligência Artificial",
+    "section": "",
+    "text": "No âmbito do projeto GlucoCheck, a equipa recorreu a ferramentas de Inteligência Artificial (IA) como apoio ao desenvolvimento do trabalho. Esta declaração descreve de forma transparente como, quando e para que fins essas ferramentas foram utilizadas."
+  },
+  {
+    "objectID": "declaracaodeia.html#declaração-de-utilização-de-ia",
+    "href": "declaracaodeia.html#declaração-de-utilização-de-ia",
+    "title": "Declaração de Utilização de Inteligência Artificial",
+    "section": "",
+    "text": "No âmbito do projeto GlucoCheck, a equipa recorreu a ferramentas de Inteligência Artificial (IA) como apoio ao desenvolvimento do trabalho. Esta declaração descreve de forma transparente como, quando e para que fins essas ferramentas foram utilizadas."
+  },
+  {
+    "objectID": "declaracaodeia.html#ferramentas-utilizadas",
+    "href": "declaracaodeia.html#ferramentas-utilizadas",
+    "title": "Declaração de Utilização de Inteligência Artificial",
+    "section": "Ferramentas Utilizadas",
+    "text": "Ferramentas Utilizadas\n\n\n\n\n\n\n\nFerramenta\nFinalidade\n\n\n\n\nClaude (Anthropic)\nApoio na redação, revisão de conteúdos, design do website e desenvolvimento do protótipo da aplicação móvel\n\n\nChatGPT (OpenAI)\nApoio na estruturação de textos e revisão de código R\n\n\nGitHub Copilot\nSugestões de código durante o desenvolvimento do website em Quarto\n\n\nGemini Pro (Google)\nGeração do logótipo da aplicação GlucoCheck"
+  },
+  {
+    "objectID": "declaracaodeia.html#para-que-foi-usada",
+    "href": "declaracaodeia.html#para-que-foi-usada",
+    "title": "Declaração de Utilização de Inteligência Artificial",
+    "section": "Para Que Foi Usada",
+    "text": "Para Que Foi Usada\n\nDesign do website — o Claude foi utilizado como apoio ao desenvolvimento do ficheiro style.css, sugerindo estilos, paletas de cores e melhorias visuais para o site\nDesenvolvimento do protótipo da app — o Claude forneceu ideias de design, sugestões de estilos e esquemas de cores para a aplicação móvel GlucoCheck\nLogótipo da aplicação — o logótipo da app GlucoCheck foi gerado com recurso ao Gemini Pro, sendo posteriormente revisto e aprovado pela equipa\nRedação e revisão de texto — alguns conteúdos do site foram redigidos com apoio de IA e posteriormente revistos e adaptados pela equipa\nCódigo R e Quarto — sugestões de código para análise de dados e estruturação das páginas do website\nDicionário de dados — apoio na organização e formatação do dicionário de dados clínicos\nPesquisa bibliográfica — apoio na síntese de informação científica sobre diabetes tipo 2 e aplicações de saúde móvel"
+  },
+  {
+    "objectID": "declaracaodeia.html#o-que-foi-revisto-criticamente",
+    "href": "declaracaodeia.html#o-que-foi-revisto-criticamente",
+    "title": "Declaração de Utilização de Inteligência Artificial",
+    "section": "O Que Foi Revisto Criticamente",
+    "text": "O Que Foi Revisto Criticamente\nTodo o conteúdo gerado por IA foi sujeito a revisão crítica pela equipa antes de ser incluído no projeto. Em concreto:\n\nOs textos foram verificados quanto à sua precisão científica e adequação ao contexto clínico\nO código R foi testado e validado pelos membros da equipa\nO protótipo da aplicação foi avaliado à luz dos dados reais do dicionário de dados GlucoCheck\nOs estilos e sugestões de design foram adaptados e aprovados pela equipa antes de serem aplicados\nO logótipo gerado pelo Gemini Pro foi revisto e selecionado pela equipa\nNenhum conteúdo foi incluído sem leitura, compreensão e aprovação por pelo menos um membro da equipa"
+  },
+  {
+    "objectID": "declaracaodeia.html#prompts-utilizados",
+    "href": "declaracaodeia.html#prompts-utilizados",
+    "title": "Declaração de Utilização de Inteligência Artificial",
+    "section": "Prompts Utilizados",
+    "text": "Prompts Utilizados\nAbaixo listam-se os principais prompts utilizados pela equipa, identificando a ferramenta e o propósito de cada um.\n\nGemini Pro\n\n“Desenvolve-me um logótipo dinâmico e específico que se relacione com a gestão inteligente da diabetes, para uma aplicação móvel chamada GlucoCheck.”\n\n\n\nClaude (Anthropic)\n\n“Ajuda-me a criar um ficheiro style.css para um website em Quarto sobre um estudo clínico de diabetes, com uma paleta de cores profissional e moderna adequada a uma aplicação de saúde.”\n\n\n“Preciso de fazer um projeto de aplicação móvel no Figma sobre este dicionário de dados, onde existem vários designs das diferentes etapas da aplicação GlucoCheck.”\n\n\n“Sugere esquemas de cores, tipografia e estilos visuais para uma aplicação móvel de gestão de diabetes chamada GlucoCheck, direcionada a doentes entre os 40 e os 75 anos.”\n\n\n\nChatGPT (OpenAI)\n\n“Revê este código R para análise de dados clínicos de um estudo sobre diabetes tipo 2 e identifica possíveis erros ou melhorias.”\n\n\n“Ajuda-me a estruturar uma página de resultados para um website em Quarto que apresente os dados de um ensaio clínico sobre uma aplicação de monitorização glicémica.”"
+  },
+  {
+    "objectID": "declaracaodeia.html#compromisso-de-integridade-académica",
+    "href": "declaracaodeia.html#compromisso-de-integridade-académica",
+    "title": "Declaração de Utilização de Inteligência Artificial",
+    "section": "Compromisso de Integridade Académica",
+    "text": "Compromisso de Integridade Académica\nA utilização de IA neste projeto foi feita de forma transparente, responsável e em conformidade com as normas da Faculdade de Medicina da Universidade do Porto. A equipa assume total responsabilidade pela veracidade, rigor e qualidade do conteúdo apresentado.\nData: Maio de 2026\nEquipa: Diana Lopes, José Ferreira, Rodrigo Oliveira, Tomás Santos\nInstituição: Faculdade de Medicina da Universidade do Porto"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "GlucoCheck",
