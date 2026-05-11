@@ -6,12 +6,12 @@ lang: pt-PT
 
 ## Investigadores
 
-| Nome | Afiliação | Curso |
-|------|-----------|-------|
-| Diana Lopes | Faculdade de Medicina da Universidade do Porto | Saude Digital e Inovação Biomédica |
-| José Ferreira | Faculdade de Medicina da Universidade do Porto | Saude Digital e Inovação Biomédica |
-| Rodrigo Oliveira | Faculdade de Medicina da Universidade do Porto | Saude Digital e Inovação Biomédica |
-| Tomás Santos | Faculdade de Medicina da Universidade do Porto | Saude Digital e Inovação Biomédica |
+| Nome | Afiliação | Curso | Contacto |
+|------|-----------|-------|---------|
+| Diana Lopes | Faculdade de Medicina da Universidade do Porto | Saúde Digital e Inovação Biomédica | up202508276@up.pt |
+| José Ferreira | Faculdade de Medicina da Universidade do Porto | Saúde Digital e Inovação Biomédica | up202508366@up.pt |
+| Rodrigo Oliveira | Faculdade de Medicina da Universidade do Porto | Saúde Digital e Inovação Biomédica | up202508158@up.pt |
+| Tomás Santos | Faculdade de Medicina da Universidade do Porto | Saúde Digital e Inovação Biomédica | up202505291@up.pt |
 
 ---
 
@@ -20,7 +20,6 @@ lang: pt-PT
 ### Diana Lopes
 - Desenvolvimento do protótipo e wireframe da aplicação móvel GlucoCheck
 - Apoio na finalização e revisão geral da aplicação
-- Correção linguística de todos os protótipos
 
 ### José Ferreira
 - Conceção e início do design da aplicação
@@ -34,13 +33,11 @@ lang: pt-PT
 ### Rodrigo Oliveira
 - Desenvolvimento do dicionário de dados
 - Construção e manutenção da estrutura do website
-- Coordenação geral do projeto e restantes correções
+- Coordenação geral do projeto e restantes tarefas
 
 ---
 
-## Contacto
-
-**Email:** up202508158@med.up.pt
+## Contacto Geral
 
 **Instituição:** Faculdade de Medicina da Universidade do Porto
 
