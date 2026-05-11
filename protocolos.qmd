@@ -2,7 +2,6 @@
 title: "Protocolo"
 format: html
 lang: pt-PT
-bibliography: referencias.bib
 ---
 
 # Protocolo de Ensaio Clínico

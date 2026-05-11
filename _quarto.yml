@@ -10,14 +10,16 @@ website:
     left:
       - href: index.qmd
         text: Início
-      - href: Protocolos.qmd
+      - href: protocolos.qmd
         text: Protocolo
-      - href: Materiais.qmd
+      - href: materiais.qmd
         text: Materiais
-      - href: Resultados.qmd
+      - href: resultados.qmd
         text: Resultados
-      - href: Equipa.qmd
+      - href: equipa.qmd
         text: Equipa
+      - href: declaracaodeia.qmd
+        text: Declaração IA
 
 format:
   html:
