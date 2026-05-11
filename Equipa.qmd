@@ -6,15 +6,42 @@ lang: pt-PT
 
 ## Investigadores
 
-| Nome | Afiliação |
-|------|-----------|
-| Diana Lopes | Faculdade de Medicina da Universidade do Porto |
-| José Ferreira | Faculdade de Medicina da Universidade do Porto |
-| Rodrigo Oliveira | Faculdade de Medicina da Universidade do Porto |
-| Tomás Santos | Faculdade de Medicina da Universidade do Porto |
+| Nome | Afiliação | Curso |
+|------|-----------|-------|
+| Diana Lopes | Faculdade de Medicina da Universidade do Porto | Saude Digital e Inovação Biomédica |
+| José Ferreira | Faculdade de Medicina da Universidade do Porto | Saude Digital e Inovação Biomédica |
+| Rodrigo Oliveira | Faculdade de Medicina da Universidade do Porto | Saude Digital e Inovação Biomédica |
+| Tomás Santos | Faculdade de Medicina da Universidade do Porto | Saude Digital e Inovação Biomédica |
 
-## Contacto 
+---
+
+## Divisão de Tarefas
+
+### Diana Lopes
+- Desenvolvimento do protótipo e wireframe da aplicação móvel GlucoCheck
+- Apoio na finalização e revisão geral da aplicação
+- Correção linguística de todos os protótipos
+
+### José Ferreira
+- Conceção e início do design da aplicação
+- Desenvolvimento da página de resultados
+- Melhoria do design geral do website
+
+### Tomás Santos
+- Desenvolvimento e melhoria da página de materiais
+- Apoio na fase inicial de construção da aplicação
+
+### Rodrigo Oliveira
+- Desenvolvimento do dicionário de dados
+- Construção e manutenção da estrutura do website
+- Coordenação geral do projeto e restantes correções
+
+---
+
+## Contacto
 
 **Email:** up202508158@med.up.pt
 
 **Instituição:** Faculdade de Medicina da Universidade do Porto
+
+**Endereço:** Alameda Prof. Hernâni Monteiro, 4200-319 Porto, Portugal
