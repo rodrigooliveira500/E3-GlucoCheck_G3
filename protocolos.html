@@ -23,26 +23,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -145,20 +126,24 @@ window.Quarto = {
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Protocolos.qmd"> 
+    <a class="nav-link active" href="./protocolos.html" aria-current="page"> 
 <span class="menu-text">Protocolo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Materiais.qmd"> 
+    <a class="nav-link" href="./materiais.html"> 
 <span class="menu-text">Materiais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Resultados.qmd"> 
+    <a class="nav-link" href="./resultados.html"> 
 <span class="menu-text">Resultados</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Equipa.qmd"> 
+    <a class="nav-link" href="./equipa.html"> 
 <span class="menu-text">Equipa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./declaracaodeia.html"> 
+<span class="menu-text">Declaração IA</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -271,9 +256,9 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="introdução">1. Introdução</h2>
 <section id="racional" class="level3">
 <h3 class="anchored" data-anchor-id="racional">1.1 Racional</h3>
-<p>A Diabetes Mellitus Tipo 2 constitui um dos maiores desafios de saúde pública a nível global e em Portugal <span class="citation" data-cites="gardetecorreia2010">(<a href="#ref-gardetecorreia2010" role="doc-biblioref"><span class="nocase">Gardete-Correia et al.</span> 2010</a>)</span>, associando-se a elevada morbilidade e mortalidade cardiovascular quando o controlo metabólico é subótimo. A pedra basilar do tratamento assenta não apenas na terapêutica farmacológica, mas também na modificação sustentada de estilos de vida e na monitorização contínua. Contudo, a inércia clínica e a falta de adesão dos doentes ao regime terapêutico e dietético fora do ambiente clínico tradicional resultam frequentemente na falência da consecução dos alvos terapêuticos, nomeadamente a manutenção da hemoglobina glicada em níveis seguros. A abordagem clínica convencional, baseada em consultas periódicas, revela-se insuficiente para colmatar a necessidade diária de tomada de decisões que a doença exige.</p>
-<p>Nas últimas décadas, a saúde digital tem demonstrado potencial para transformar a gestão de patologias crónicas <span class="citation" data-cites="greenwood2017">(<a href="#ref-greenwood2017" role="doc-biblioref">Greenwood et al. 2017</a>)</span>. A evidência científica atual sugere que intervenções baseadas em aplicações móveis de saúde podem facilitar a automonitorização, fornecer feedback em tempo real e aumentar o conhecimento em saúde. Estudos preliminares indicam que o uso de plataformas digitais interativas está associado a reduções clinicamente significativas da hemoglobina glicada e a melhorias na autoeficácia <span class="citation" data-cites="quinn2011 hou_mobile_2016">(<a href="#ref-quinn2011" role="doc-biblioref">Quinn et al. 2011</a>; <a href="#ref-hou_mobile_2016" role="doc-biblioref">Hou et al. 2016</a>)</span>. Estas ferramentas tecnológicas operam através do reforço positivo e do suporte educacional contínuo, elementos que potenciam a capacitação do doente para gerir a sua condição entre as consultas médicas convencionais, otimizando os resultados clínicos de forma custo-efetiva.</p>
-<p>Apesar do aumento exponencial no desenvolvimento de aplicações móveis para a diabetes, existe uma escassez de ensaios clínicos randomizados com robustez metodológica que validem a eficácia de plataformas específicas, como a aplicação GLUCOCHECK, face aos cuidados habituais isolados. A maioria das aplicações disponíveis comercialmente carece de validação empírica rigorosa e frequentemente não integra múltiplos determinantes do controlo glicémico, como a adesão simultânea ao registo alimentar, monitorização glicémica e avaliação formal da autoeficácia através de instrumentos validados como a Diabetes Empowerment Scale Short Form <span class="citation" data-cites="anderson2003">(<a href="#ref-anderson2003" role="doc-biblioref">Anderson et al. 2003</a>)</span>. Subsiste, portanto, a necessidade crítica de quantificar o impacto isolado da integração desta tecnologia de forma controlada.</p>
+<p>A Diabetes Mellitus Tipo 2 constitui um dos maiores desafios de saúde pública a nível global e em Portugal <span class="citation" data-cites="gardetecorreia2010">[@gardetecorreia2010]</span>, associando-se a elevada morbilidade e mortalidade cardiovascular quando o controlo metabólico é subótimo. A pedra basilar do tratamento assenta não apenas na terapêutica farmacológica, mas também na modificação sustentada de estilos de vida e na monitorização contínua. Contudo, a inércia clínica e a falta de adesão dos doentes ao regime terapêutico e dietético fora do ambiente clínico tradicional resultam frequentemente na falência da consecução dos alvos terapêuticos, nomeadamente a manutenção da hemoglobina glicada em níveis seguros. A abordagem clínica convencional, baseada em consultas periódicas, revela-se insuficiente para colmatar a necessidade diária de tomada de decisões que a doença exige.</p>
+<p>Nas últimas décadas, a saúde digital tem demonstrado potencial para transformar a gestão de patologias crónicas <span class="citation" data-cites="greenwood2017">[@greenwood2017]</span>. A evidência científica atual sugere que intervenções baseadas em aplicações móveis de saúde podem facilitar a automonitorização, fornecer feedback em tempo real e aumentar o conhecimento em saúde. Estudos preliminares indicam que o uso de plataformas digitais interativas está associado a reduções clinicamente significativas da hemoglobina glicada e a melhorias na autoeficácia <span class="citation" data-cites="quinn2011 hou_mobile_2016">[@quinn2011; @hou_mobile_2016]</span>. Estas ferramentas tecnológicas operam através do reforço positivo e do suporte educacional contínuo, elementos que potenciam a capacitação do doente para gerir a sua condição entre as consultas médicas convencionais, otimizando os resultados clínicos de forma custo-efetiva.</p>
+<p>Apesar do aumento exponencial no desenvolvimento de aplicações móveis para a diabetes, existe uma escassez de ensaios clínicos randomizados com robustez metodológica que validem a eficácia de plataformas específicas, como a aplicação GLUCOCHECK, face aos cuidados habituais isolados. A maioria das aplicações disponíveis comercialmente carece de validação empírica rigorosa e frequentemente não integra múltiplos determinantes do controlo glicémico, como a adesão simultânea ao registo alimentar, monitorização glicémica e avaliação formal da autoeficácia através de instrumentos validados como a Diabetes Empowerment Scale Short Form <span class="citation" data-cites="anderson2003">[@anderson2003]</span>. Subsiste, portanto, a necessidade crítica de quantificar o impacto isolado da integração desta tecnologia de forma controlada.</p>
 <p>O presente ensaio clínico randomizado visa preencher esta lacuna na literatura, avaliando rigorosamente a eficácia da aplicação GLUCOCHECK em comparação com a consulta habitual isolada, que se limita a consultas trimestrais e aconselhamento standard sem suporte digital. O objetivo primário é determinar o impacto da intervenção na redução da hemoglobina glicada aos seis meses de seguimento. Secundariamente, pretende-se avaliar as alterações na glicemia em jejum, no peso corporal, na adesão ao registo alimentar e na frequência de monitorização glicémica, bem como quantificar o incremento na autoeficácia, no conhecimento sobre a patologia e na satisfação global com os cuidados de saúde prestados.</p>
 </section>
 <section id="objetivos" class="level3">
@@ -399,7 +384,7 @@ window.Quarto = {
 <p><strong>Aplicação GlucoCheck:</strong></p>
 <p>O grupo de intervenção utilizará a aplicação móvel GlucoCheck, integrada via Bluetooth com um glucómetro digital, enquanto o grupo de controlo manterá o acompanhamento padrão em cuidados de saúde primários, consistindo em consultas trimestrais e educação convencional para a autogestão da diabetes. Dada a faixa etária da coorte, entre os 40 e os 75 anos, a introdução tecnológica será suportada por uma sessão de capacitação presencial inicial de 60 minutos, conduzida por investigadores treinados, onde se procederá à instalação do software e à demonstração prática das funcionalidades. Para mitigar barreiras de literacia digital, será fornecido um manual de utilizador em suporte físico com iconografia de elevado contraste e uma linha de apoio técnico dedicada, garantindo que a proficiência tecnológica não constitua um viés de seleção ou de adesão aos procedimentos do estudo.</p>
 <p>A descontinuação da intervenção ou a exclusão do participante ocorrerá mediante critérios de segurança clínica estritos, salvaguardando a integridade física do doente acima dos objetivos experimentais. A transição para terapêutica insulínica, motivada por falha secundária aos antidiabéticos orais ou descompensação glicémica persistente, ditará a interrupção imediata da participação no ensaio, uma vez que altera o perfil metabólico e a complexidade do autocuidado definido no protocolo original. Adicionalmente, o estudo será interrompido para indivíduos que apresentem eventos adversos graves, como episódios de hipoglicemia severa recorrente ou cetoacidose diabética, ou sempre que o médico assistente considere que a permanência no protocolo compromete o ajuste clínico necessário face a uma deterioração aguda do estado de saúde.</p>
-<p>A retenção dos participantes e a adesão ao registo alimentar, frequentemente identificado como um elemento de elevada carga cognitiva, serão otimizadas através de estratégias de gamificação e simplificação funcional <span class="citation" data-cites="cugelman2013 johnson_gamification_2016">(<a href="#ref-cugelman2013" role="doc-biblioref">Cugelman 2013</a>; <a href="#ref-johnson_gamification_2016" role="doc-biblioref">Johnson et al. 2016</a>)</span>. A aplicação GlucoCheck incorporará um sistema de reconhecimento de imagem e listas de alimentos frequentes baseadas nas preferências individuais para acelerar a introdução de dados, minimizando o esforço logístico do utilizador. Paralelamente, serão enviadas notificações push personalizadas com reforço positivo e marcos de progresso, enquanto a equipa de investigação realizará contactos telefónicos de cortesia ao terceiro mês para monitorizar o bem-estar e resolver barreiras motivacionais, garantindo que o compromisso com o protocolo se mantém até à avaliação final do desfecho primário aos seis meses.</p>
+<p>A retenção dos participantes e a adesão ao registo alimentar, frequentemente identificado como um elemento de elevada carga cognitiva, serão otimizadas através de estratégias de gamificação e simplificação funcional <span class="citation" data-cites="cugelman2013 johnson_gamification_2016">[@cugelman2013; @johnson_gamification_2016]</span>. A aplicação GlucoCheck incorporará um sistema de reconhecimento de imagem e listas de alimentos frequentes baseadas nas preferências individuais para acelerar a introdução de dados, minimizando o esforço logístico do utilizador. Paralelamente, serão enviadas notificações push personalizadas com reforço positivo e marcos de progresso, enquanto a equipa de investigação realizará contactos telefónicos de cortesia ao terceiro mês para monitorizar o bem-estar e resolver barreiras motivacionais, garantindo que o compromisso com o protocolo se mantém até à avaliação final do desfecho primário aos seis meses.</p>
 <p>Quanto à gestão clínica por parte dos médicos de família, é fundamental que a prática terapêutica seja padronizada para evitar confundidores nos níveis de HbA1c. Os clínicos serão instruídos a manter a medicação hipoglicemiante oral estável durante o período do estudo, exceto em situações de risco imediato para o doente, como hipoglicemias sintomáticas ou hiperglicemia refratária que exija intervenção urgente. Qualquer ajuste posológico ou alteração na classe farmacológica deverá ser rigorosamente documentado no processo clínico eletrónico e reportado à equipa de investigação, permitindo uma análise de sensibilidade posterior que contabilize o impacto destas modificações nos resultados finais, assegurando que a eficácia atribuída à aplicação móvel não é mascarada por intervenções farmacológicas concorrentes.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -492,7 +477,7 @@ window.Quarto = {
 <li><strong>Que contactos têm:</strong> Serão realizados dois contactos presenciais de rotina na Unidade de Saúde Familiar (USF) durante os 6 meses do acompanhamento. Adicionalmente, os participantes realizam colheitas de sangue laboratoriais para medição da HbA1c nos mesmos momentos que o grupo de intervenção: no início (<em>baseline</em>), aos 3 meses e aos 6 meses.</li>
 </ul>
 <p><strong>Justificação do comparador:</strong></p>
-<p>A escolha do cuidado habitual justifica-se por representar o atual padrão de tratamento (<em>standard of care</em>) para doentes com DMT2 no sistema de saúde português, garantindo que nenhum participante recebe um nível de cuidado inferior ao recomendado eticamente pelas diretrizes nacionais. De acordo com a norma SPIRIT 2013 <span class="citation" data-cites="chan2013">(<a href="#ref-chan2013" role="doc-biblioref"><span class="nocase">Chan et al.</span> 2013</a>)</span>, o uso deste comparador permite avaliar a eficácia incremental e a utilidade real da aplicação GlucoCheck face à prática clínica convencional.</p>
+<p>A escolha do cuidado habitual justifica-se por representar o atual padrão de tratamento (<em>standard of care</em>) para doentes com DMT2 no sistema de saúde português, garantindo que nenhum participante recebe um nível de cuidado inferior ao recomendado eticamente pelas diretrizes nacionais. De acordo com a norma SPIRIT 2013 <span class="citation" data-cites="chan2013">[@chan2013]</span>, o uso deste comparador permite avaliar a eficácia incremental e a utilidade real da aplicação GlucoCheck face à prática clínica convencional.</p>
 </section>
 <section id="critérios-de-descontinuação" class="level4">
 <h4 class="anchored" data-anchor-id="critérios-de-descontinuação">2.3.3 Critérios de Descontinuação</h4>
@@ -522,7 +507,7 @@ window.Quarto = {
 <ol type="1">
 <li><strong>Autoeficácia na gestão da diabetes:</strong>
 <ul>
-<li><strong>Instrumento:</strong> Escala <em>Diabetes Empowerment Scale Short Form</em> (DES-SF), validada para a população portuguesa <span class="citation" data-cites="aveiro_fiability_2015">(<a href="#ref-aveiro_fiability_2015" role="doc-biblioref">Aveiro et al. 2015</a>)</span>.</li>
+<li><strong>Instrumento:</strong> Escala <em>Diabetes Empowerment Scale Short Form</em> (DES-SF), validada para a população portuguesa <span class="citation" data-cites="aveiro_fiability_2015">[@aveiro_fiability_2015]</span>.</li>
 <li><strong>Momento:</strong> Aplicada no <em>baseline</em> e aos 6 meses.</li>
 </ul></li>
 <li><strong>Glicemia em Jejum e Peso Corporal:</strong>
@@ -542,7 +527,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="análise-estatística">4. Análise Estatística</h2>
 <section id="justificação-da-amostra-estudo-piloto" class="level3">
 <h3 class="anchored" data-anchor-id="justificação-da-amostra-estudo-piloto">4.1 Justificação da Amostra (Estudo Piloto)</h3>
-<p>Sendo este um estudo piloto focado na viabilidade da aplicação <strong>GlucoCheck</strong>, o tamanho da amostra foi fixado em <strong>n=30</strong> (15 por braço). Esta dimensão baseia-se na “Regra de Julious” <span class="citation" data-cites="julious2005">(<a href="#ref-julious2005" role="doc-biblioref">Julious 2005</a>)</span> para ensaios clínicos piloto, que sugere 12 a 15 participantes por grupo como o mínimo necessário para estimar a variância e avaliar a exequibilidade do protocolo. Os resultados obtidos servirão para fundamentar o cálculo do poder estatístico de um futuro ensaio clínico de confirmação (Fase III).</p>
+<p>Sendo este um estudo piloto focado na viabilidade da aplicação <strong>GlucoCheck</strong>, o tamanho da amostra foi fixado em <strong>n=30</strong> (15 por braço). Esta dimensão baseia-se na “Regra de Julious” <span class="citation" data-cites="julious2005">[@julious2005]</span> para ensaios clínicos piloto, que sugere 12 a 15 participantes por grupo como o mínimo necessário para estimar a variância e avaliar a exequibilidade do protocolo. Os resultados obtidos servirão para fundamentar o cálculo do poder estatístico de um futuro ensaio clínico de confirmação (Fase III).</p>
 </section>
 <section id="análise-do-outcome-primário-eficácia-glicémica" class="level3">
 <h3 class="anchored" data-anchor-id="análise-do-outcome-primário-eficácia-glicémica">4.2 Análise do Outcome Primário: Eficácia Glicémica</h3>
@@ -550,7 +535,7 @@ window.Quarto = {
 <ul>
 <li><strong>População de Análise:</strong> Utilizar-se-á uma abordagem de <strong>Intenção de Tratar (ITT)</strong>, incluindo todos os participantes que iniciaram o estudo, independentemente do seu nível de interação com a App.</li>
 <li><strong>Modelo Estatístico:</strong> Para comparar a eficácia entre os grupos, aplicaremos uma <strong>ANCOVA (Análise de Covariância)</strong>, utilizando o valor final da HbA1c como variável dependente e o valor inicial como covariável. Esta técnica permite isolar o efeito real da aplicação GlucoCheck, corrigindo as diferenças individuais iniciais.</li>
-<li><strong>Magnitude do Efeito:</strong> Dada a amostra reduzida (<span class="math inline">\(n &lt; 50\)</span>), utilizaremos o <strong>g de Hedges</strong> em vez do d de Cohen <span class="citation" data-cites="lakens2013">(<a href="#ref-lakens2013" role="doc-biblioref">Lakens 2013</a>)</span>, por ser um estimador menos enviesado para estudos piloto. O cálculo seguirá a equação:</li>
+<li><strong>Magnitude do Efeito:</strong> Dada a amostra reduzida (<span class="math inline">\(n &lt; 50\)</span>), utilizaremos o <strong>g de Hedges</strong> em vez do d de Cohen <span class="citation" data-cites="lakens2013">[@lakens2013]</span>, por ser um estimador menos enviesado para estudos piloto. O cálculo seguirá a equação:</li>
 </ul>
 <p><span class="math display">\[g = \frac{M_{int} - M_{cont}}{SD_{agrupado}} \times \left( 1 - \frac{3}{4(n_1 + n_2) - 9} \right)\]</span></p>
 <blockquote class="blockquote">
@@ -560,7 +545,7 @@ window.Quarto = {
 <section id="análise-de-outcomes-secundários-e-usabilidade" class="level3">
 <h3 class="anchored" data-anchor-id="análise-de-outcomes-secundários-e-usabilidade">4.3 Análise de Outcomes Secundários e Usabilidade</h3>
 <ul>
-<li><strong>Controlo Glicémico Diário:</strong> A variável “Tempo em Alvo” (<em>Time in Range</em>) <span class="citation" data-cites="battelino2019">(<a href="#ref-battelino2019" role="doc-biblioref"><span class="nocase">Battelino et al.</span> 2019</a>)</span>, obtida por sincronização Bluetooth, será comparada através do teste de <strong>Mann-Whitney</strong>, ajustado para dados não paramétricos.</li>
+<li><strong>Controlo Glicémico Diário:</strong> A variável “Tempo em Alvo” (<em>Time in Range</em>) <span class="citation" data-cites="battelino2019">[@battelino2019]</span>, obtida por sincronização Bluetooth, será comparada através do teste de <strong>Mann-Whitney</strong>, ajustado para dados não paramétricos.</li>
 <li><strong>Engagement e Adesão:</strong> No grupo de intervenção, será calculada a correlação de Spearman entre o número de registos nutricionais diários e a variação da glicemia em jejum.</li>
 <li><strong>Segurança e Retenção:</strong> A taxa de abandono (<em>dropout</em>) e a frequência de episódios de hipoglicemia serão comparadas entre grupos utilizando o <strong>Teste Exato de Fisher</strong>, devido às baixas frequências esperadas numa amostra de 30 pessoas.</li>
 <li><strong>Nível de Significância:</strong> Todos os testes serão bilaterais com um valor de <span class="math inline">\(\alpha = 0.05\)</span>.</li>
@@ -572,7 +557,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="ética-e-disseminação">5. Ética e Disseminação</h2>
 <section id="aprovação-ética-e-normas-de-conduta" class="level3">
 <h3 class="anchored" data-anchor-id="aprovação-ética-e-normas-de-conduta">5.1 Aprovação Ética e Normas de Conduta</h3>
-<p>O presente protocolo foi desenhado em conformidade com a Declaração de Helsínquia e as diretrizes SPIRIT <span class="citation" data-cites="chan2013">(<a href="#ref-chan2013" role="doc-biblioref"><span class="nocase">Chan et al.</span> 2013</a>)</span>. O projeto será submetido para apreciação e aprovação da <strong>Comissão de Ética da Faculdade de Medicina da Universidade do Porto (FMUP)</strong>. Qualquer alteração substancial no desenho do ensaio ou nos procedimentos de segurança será comunicada e aprovada via adenda antes de ser implementada no terreno.</p>
+<p>O presente protocolo foi desenhado em conformidade com a Declaração de Helsínquia e as diretrizes SPIRIT <span class="citation" data-cites="chan2013">[@chan2013]</span>. O projeto será submetido para apreciação e aprovação da <strong>Comissão de Ética da Faculdade de Medicina da Universidade do Porto (FMUP)</strong>. Qualquer alteração substancial no desenho do ensaio ou nos procedimentos de segurança será comunicada e aprovada via adenda antes de ser implementada no terreno.</p>
 </section>
 <section id="processo-de-consentimento-informado" class="level3">
 <h3 class="anchored" data-anchor-id="processo-de-consentimento-informado">5.2 Processo de Consentimento Informado</h3>
@@ -601,62 +586,18 @@ window.Quarto = {
 </section>
 <section id="estratégia-de-disseminação" class="level3">
 <h3 class="anchored" data-anchor-id="estratégia-de-disseminação">5.5 Estratégia de Disseminação</h3>
-<p>Os resultados serão partilhados de forma transparente, independentemente de confirmarem ou não a eficácia da intervenção: * <strong>Publicação Académica:</strong> Submissão de um artigo científico a revistas de referência em <em>Digital Health</em> ou Diabetologia (ex: <em>JMIR</em> ou <em>Diabetes Care</em>), seguindo as normas CONSORT-EHEALTH <span class="citation" data-cites="eysenbach2011">(<a href="#ref-eysenbach2011" role="doc-biblioref">Eysenbach e CONSORT-EHEALTH Group 2011</a>)</span>. * <strong>Transferência de Conhecimento:</strong> Apresentação dos resultados em congressos nacionais da Sociedade Portuguesa de Diabetologia <span class="citation" data-cites="spd2023diabetes">(<a href="#ref-spd2023diabetes" role="doc-biblioref">Sociedade Portuguesa de Diabetologia 2023</a>)</span>. * <strong>Retorno aos Participantes:</strong> No final dos 6 meses, os participantes receberão um infográfico individual resumindo a evolução do seu controlo glicémico e os resultados globais do estudo.</p>
+<p>Os resultados serão partilhados de forma transparente, independentemente de confirmarem ou não a eficácia da intervenção: * <strong>Publicação Académica:</strong> Submissão de um artigo científico a revistas de referência em <em>Digital Health</em> ou Diabetologia (ex: <em>JMIR</em> ou <em>Diabetes Care</em>), seguindo as normas CONSORT-EHEALTH <span class="citation" data-cites="eysenbach2011">[@eysenbach2011]</span>. * <strong>Transferência de Conhecimento:</strong> Apresentação dos resultados em congressos nacionais da Sociedade Portuguesa de Diabetologia <span class="citation" data-cites="spd2023diabetes">[@spd2023diabetes]</span>. * <strong>Retorno aos Participantes:</strong> No final dos 6 meses, os participantes receberão um infográfico individual resumindo a evolução do seu controlo glicémico e os resultados globais do estudo.</p>
 <hr>
 <p><strong>Versão:</strong> 1.0<br>
 <strong>Data desta versão:</strong> 26/03/2026<br>
 <strong>Autores desta versão:</strong> Diana Lopes, José Ferreira, Rodrigo Oliveira, Tomás Santos</p>
 
 
-
 </section>
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-anderson2003" class="csl-entry" role="listitem">
-Anderson, Robert M., James T. Fitzgerald, Larry D. Gruppen, Martha M. Funnell, e M. S. Oh. 2003. <span>«The <span>Diabetes Empowerment Scale-Short Form</span> (<span>DES-SF</span>)»</span>. <em>Diabetes Care</em> 26 (5): 1641–42. <a href="https://doi.org/10.2337/diacare.26.5.1641">https://doi.org/10.2337/diacare.26.5.1641</a>.
-</div>
-<div id="ref-aveiro_fiability_2015" class="csl-entry" role="listitem">
-Aveiro, M., L. M. Santiago, P. Lopes Ferreira, e J. A. Simões. 2015. <span>«Fiability Study of <span>Diabetes Empowerment Scale</span>: <span>Short Version</span>»</span>. <em>Acta Médica Portuguesa</em> 28 (3): 177–83. <a href="https://doi.org/10.20344/amp.5679">https://doi.org/10.20344/amp.5679</a>.
-</div>
-<div id="ref-battelino2019" class="csl-entry" role="listitem">
-<span class="nocase">Battelino, Tadej, Thomas Danne, Richard M. Bergenstal, et al.</span> 2019. <span>«Clinical Targets for Continuous Glucose Monitoring Data Interpretation: <span>Recommendations</span> from the International Consensus on Time in Range»</span>. <em>Diabetes Care</em> 42 (8): 1593–603. <a href="https://doi.org/10.2337/dci19-0028">https://doi.org/10.2337/dci19-0028</a>.
-</div>
-<div id="ref-chan2013" class="csl-entry" role="listitem">
-<span class="nocase">Chan, An-Wen, Jennifer M. Tetzlaff, Douglas G. Altman, et al.</span> 2013. <span>«<span>SPIRIT</span> 2013 Statement: <span>Defining</span> Standard Protocol Items for Clinical Trials»</span>. <em>Annals of Internal Medicine</em> 158 (3): 200–207. <a href="https://doi.org/10.7326/0003-4819-158-3-201302050-00583">https://doi.org/10.7326/0003-4819-158-3-201302050-00583</a>.
-</div>
-<div id="ref-cugelman2013" class="csl-entry" role="listitem">
-Cugelman, Brian. 2013. <span>«Gamification: <span>What</span> It Is and Why It Matters to Digital Health Behavior Change Developers»</span>. <em>JMIR Serious Games</em> 1 (1): e3. <a href="https://doi.org/10.2196/games.3139">https://doi.org/10.2196/games.3139</a>.
-</div>
-<div id="ref-eysenbach2011" class="csl-entry" role="listitem">
-Eysenbach, Gunther, e CONSORT-EHEALTH Group. 2011. <span>«<span>CONSORT-EHEALTH</span>: <span>Improving</span> and Standardizing Evaluation Reports of Web-Based and Mobile Health Interventions»</span>. <em>Journal of Medical Internet Research</em> 13 (4): e126. <a href="https://doi.org/10.2196/jmir.1923">https://doi.org/10.2196/jmir.1923</a>.
-</div>
-<div id="ref-gardetecorreia2010" class="csl-entry" role="listitem">
-<span class="nocase">Gardete-Correia, L., J. M. Boavida, J. F. Raposo, A. C. Mesquita, I. Fagulha, et al.</span> 2010. <span>«First Diabetes Prevalence Study in Portugal: <span>PREVADIAB</span> Study»</span>. <em>Diabetic Medicine</em> 27 (8): 879–81. <a href="https://doi.org/10.1111/j.1464-5491.2010.03017.x">https://doi.org/10.1111/j.1464-5491.2010.03017.x</a>.
-</div>
-<div id="ref-greenwood2017" class="csl-entry" role="listitem">
-Greenwood, Deborah A., Perry M. Gee, Kathryn J. Fatkin, e Malinda Peeples. 2017. <span>«A Systematic Review of Reviews Evaluating Technology-Enabled Diabetes Self-Management Education and Support»</span>. <em>Journal of Diabetes Science and Technology</em> 11 (5): 1015–27. <a href="https://doi.org/10.1177/1932296817713506">https://doi.org/10.1177/1932296817713506</a>.
-</div>
-<div id="ref-hou_mobile_2016" class="csl-entry" role="listitem">
-Hou, C., B. Carter, J. Hewitt, T. Francisa, e S. Mayor. 2016. <span>«Do Mobile Phone Applications Improve Glycemic Control (<span>HbA1c</span>) in the Self-Management of Diabetes? <span>A</span> Systematic Review, Meta-analysis, and <span>GRADE</span> of 14 Randomized Trials»</span>. <em>Diabetes Care</em> 39 (11): 2089–95. <a href="https://doi.org/10.2337/dc16-0346">https://doi.org/10.2337/dc16-0346</a>.
-</div>
-<div id="ref-johnson_gamification_2016" class="csl-entry" role="listitem">
-Johnson, D., S. Deterding, K. A. Kuhn, A. Staneva, S. Stoyanov, e L. Hides. 2016. <span>«Gamifying Self-Management of Chronic Illnesses: <span>A</span> Mixed-Methods Study»</span>. <em>Journal of Medical Internet Research</em> 18 (5): e135. <a href="https://doi.org/10.2196/jmir.5867">https://doi.org/10.2196/jmir.5867</a>.
-</div>
-<div id="ref-julious2005" class="csl-entry" role="listitem">
-Julious, Steven A. 2005. <span>«Sample Size of 12 per Group Rule of Thumb for a Pilot Study»</span>. <em>Pharmaceutical Statistics</em> 4 (4): 287–91. <a href="https://doi.org/10.1002/pst.185">https://doi.org/10.1002/pst.185</a>.
-</div>
-<div id="ref-lakens2013" class="csl-entry" role="listitem">
-Lakens, Daniël. 2013. <span>«Calculating and Reporting Effect Sizes to Facilitate Cumulative Science: A Practical Primer for t-Tests and <span>ANOVAs</span>»</span>. <em>Frontiers in Psychology</em> 4: 863. <a href="https://doi.org/10.3389/fpsyg.2013.00863">https://doi.org/10.3389/fpsyg.2013.00863</a>.
-</div>
-<div id="ref-quinn2011" class="csl-entry" role="listitem">
-Quinn, Charlene C., Michelle D. Shardell, Michael L. Terrin, Erik A. Barr, Shoshana H. Ballew, e Ann L. Gruber-Baldini. 2011. <span>«Cluster-Randomized Trial of a Mobile Phone Personalized Behavioral Intervention for Blood Glucose Control»</span>. <em>Diabetes Care</em> 34 (9): 1934–42. <a href="https://doi.org/10.2337/dc11-0366">https://doi.org/10.2337/dc11-0366</a>.
-</div>
-<div id="ref-spd2023diabetes" class="csl-entry" role="listitem">
-Sociedade Portuguesa de Diabetologia. 2023. <em>Diabetes: <span>Factos</span> e <span>Números</span> 2023 — <span>Relatório Anual</span> do <span>Observatório Nacional da Diabetes</span></em>. Sociedade Portuguesa de Diabetologia. <a href="https://www.spd.pt">https://www.spd.pt</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
