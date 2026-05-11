@@ -14,10 +14,10 @@ No âmbito do projeto GlucoCheck, a equipa recorreu a ferramentas de Inteligênc
 
 | Ferramenta | Finalidade |
 |------------|-----------|
-| Claude (Anthropic) | Apoio na redação, revisão de conteúdos, design do website e desenvolvimento do protótipo da aplicação móvel |
-| ChatGPT (OpenAI) | Apoio na estruturação de textos e revisão de código R |
-| GitHub Copilot | Sugestões de código durante o desenvolvimento do website em Quarto |
-| Gemini Pro (Google) | Geração do logótipo da aplicação GlucoCheck |
+| <img src="https://www.anthropic.com/favicon.ico" width="16"/> **Claude (Anthropic)** | Apoio na redação, revisão de conteúdos, design do website e desenvolvimento do protótipo da aplicação móvel |
+| <img src="https://chat.openai.com/favicon.ico" width="16"/> **ChatGPT (OpenAI)** | Apoio na estruturação de textos e revisão de código R |
+| <img src="https://github.com/favicon.ico" width="16"/> **GitHub Copilot** | Sugestões de código durante o desenvolvimento do website em Quarto |
+| <img src="https://ssl.gstatic.com/images/branding/product/1x/gemini_48dp.png" width="16"/> **Gemini Pro (Google)** | Geração do logótipo da aplicação GlucoCheck **Gemini Pro (Google)** | Geração do logótipo da aplicação GlucoCheck |
 
 ---
 
@@ -53,7 +53,7 @@ Abaixo listam-se os principais prompts utilizados pela equipa, identificando a f
 ### Gemini Pro
 > "Desenvolve-me um logótipo dinâmico e específico que se relacione com a gestão inteligente da diabetes, para uma aplicação móvel chamada GlucoCheck."
 
-### Claude (Anthropic)
+qua### Claude (Anthropic)
 > "Ajuda-me a criar um ficheiro style.css para um website em Quarto sobre um estudo clínico de diabetes, com uma paleta de cores profissional e moderna adequada a uma aplicação de saúde."
 
 > "Preciso de fazer um projeto de aplicação móvel no Figma sobre este dicionário de dados, onde existem vários designs das diferentes etapas da aplicação GlucoCheck."
