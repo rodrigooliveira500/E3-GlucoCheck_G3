@@ -1,1 +1,78 @@
+---
+title: "Declaração de Utilização de Inteligência Artificial"
+format: html
+lang: pt-PT
+---
 
+## Declaração de Utilização de IA
+
+No âmbito do projeto GlucoCheck, a equipa recorreu a ferramentas de Inteligência Artificial (IA) como apoio ao desenvolvimento do trabalho. Esta declaração descreve de forma transparente como, quando e para que fins essas ferramentas foram utilizadas.
+
+---
+
+## Ferramentas Utilizadas
+
+| Ferramenta | Finalidade |
+|------------|-----------|
+| Claude (Anthropic) | Apoio na redação, revisão de conteúdos, design do website e desenvolvimento do protótipo da aplicação móvel |
+| ChatGPT (OpenAI) | Apoio na estruturação de textos e revisão de código R |
+| GitHub Copilot | Sugestões de código durante o desenvolvimento do website em Quarto |
+| Gemini Pro (Google) | Geração do logótipo da aplicação GlucoCheck |
+
+---
+
+## Para Que Foi Usada
+
+- **Design do website** — o Claude foi utilizado como apoio ao desenvolvimento do ficheiro `style.css`, sugerindo estilos, paletas de cores e melhorias visuais para o site
+- **Desenvolvimento do protótipo da app** — o Claude forneceu ideias de design, sugestões de estilos e esquemas de cores para a aplicação móvel GlucoCheck
+- **Logótipo da aplicação** — o logótipo da app GlucoCheck foi gerado com recurso ao Gemini Pro, sendo posteriormente revisto e aprovado pela equipa
+- **Redação e revisão de texto** — alguns conteúdos do site foram redigidos com apoio de IA e posteriormente revistos e adaptados pela equipa
+- **Código R e Quarto** — sugestões de código para análise de dados e estruturação das páginas do website
+- **Dicionário de dados** — apoio na organização e formatação do dicionário de dados clínicos
+- **Pesquisa bibliográfica** — apoio na síntese de informação científica sobre diabetes tipo 2 e aplicações de saúde móvel
+
+---
+
+## O Que Foi Revisto Criticamente
+
+Todo o conteúdo gerado por IA foi sujeito a revisão crítica pela equipa antes de ser incluído no projeto. Em concreto:
+
+- Os textos foram verificados quanto à sua precisão científica e adequação ao contexto clínico
+- O código R foi testado e validado pelos membros da equipa
+- O protótipo da aplicação foi avaliado à luz dos dados reais do dicionário de dados GlucoCheck
+- Os estilos e sugestões de design foram adaptados e aprovados pela equipa antes de serem aplicados
+- O logótipo gerado pelo Gemini Pro foi revisto e selecionado pela equipa
+- Nenhum conteúdo foi incluído sem leitura, compreensão e aprovação por pelo menos um membro da equipa
+
+---
+
+## Prompts Utilizados
+
+Abaixo listam-se os principais prompts utilizados pela equipa, identificando a ferramenta e o propósito de cada um.
+
+### Gemini Pro
+> "Desenvolve-me um logótipo dinâmico e específico que se relacione com a gestão inteligente da diabetes, para uma aplicação móvel chamada GlucoCheck."
+
+### Claude (Anthropic)
+> "Ajuda-me a criar um ficheiro style.css para um website em Quarto sobre um estudo clínico de diabetes, com uma paleta de cores profissional e moderna adequada a uma aplicação de saúde."
+
+> "Preciso de fazer um projeto de aplicação móvel no Figma sobre este dicionário de dados, onde existem vários designs das diferentes etapas da aplicação GlucoCheck."
+
+> "Sugere esquemas de cores, tipografia e estilos visuais para uma aplicação móvel de gestão de diabetes chamada GlucoCheck, direcionada a doentes entre os 40 e os 75 anos."
+
+### ChatGPT (OpenAI)
+> "Revê este código R para análise de dados clínicos de um estudo sobre diabetes tipo 2 e identifica possíveis erros ou melhorias."
+
+> "Ajuda-me a estruturar uma página de resultados para um website em Quarto que apresente os dados de um ensaio clínico sobre uma aplicação de monitorização glicémica."
+
+---
+
+## Compromisso de Integridade Académica
+
+A utilização de IA neste projeto foi feita de forma transparente, responsável e em conformidade com as normas da Faculdade de Medicina da Universidade do Porto. A equipa assume total responsabilidade pela veracidade, rigor e qualidade do conteúdo apresentado.
+
+**Data:** Maio de 2026
+
+**Equipa:** Diana Lopes, José Ferreira, Rodrigo Oliveira, Tomás Santos
+
+**Instituição:** Faculdade de Medicina da Universidade do Porto
