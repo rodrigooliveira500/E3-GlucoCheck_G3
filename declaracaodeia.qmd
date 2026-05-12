@@ -21,30 +21,12 @@ No âmbito do projeto GlucoCheck, a equipa recorreu a ferramentas de Inteligênc
 
 ### Para Que Foi Usada
 
-- **Redação do título e racional clínico** — geração de texto estruturado 
-em 4 parágrafos (contextualização da DMT2, evidência sobre apps mHealth, 
-lacuna na literatura e objetivos do ensaio), com revisão crítica e adição 
-de referências pela equipa
-- **Desenho do estudo e estruturação dos objetivos** — geração de texto 
-sobre o desenho RCT paralelo, ratio de randomização, duração e setting, 
-seguida de lista categorizada de objetivos primários e secundários, 
-reformulada pela equipa com maior precisão metodológica
-- **Critérios de inclusão e exclusão e recrutamento** — geração de texto 
-com parâmetros quantitativos de elegibilidade, processo de recrutamento 
-por base de dados ICD-10 da USF e justificação clínica das escolhas, 
-com adição de critérios pela equipa
-- **Redação das intervenções** — geração de texto em 4 parágrafos sobre 
-o funcionamento dos grupos, critérios de descontinuação, estratégias de 
-retenção e regras de gestão farmacológica pelos médicos de família, 
-com acréscimos da equipa
-- **Análise estatística** — geração da secção completa em 4 parágrafos 
-(justificação amostral pela Regra de Julious, ANCOVA com g de Hedges, 
-testes secundários não paramétricos e limitações estatísticas), 
-com validação metodológica pela equipa
-- **Ética e disseminação** — geração das quatro subsecções (aprovação 
-ética, consentimento informado por documento físico, RGPD e 
-cibersegurança, monitorização de segurança e disseminação) com 
-limiares clínicos críticos definidose referências CONSORT-EHEALTH, com adição de referências e ajustes pela equipa
+- **Redação do título e racional clínico** — geração de texto estruturado em 4 parágrafos (contextualização da DMT2, evidência sobre apps mHealth, lacuna na literatura e objetivos do ensaio), com revisão crítica e adição de referências pela equipa
+- **Desenho do estudo e estruturação dos objetivos** — geração de texto sobre o desenho RCT paralelo, ratio de randomização, duração e setting, seguida de lista categorizada de objetivos primários e secundários, reformulada pela equipa com maior precisão metodológica
+- **Critérios de inclusão e exclusão e recrutamento** — geração de texto com parâmetros quantitativos de elegibilidade, processo de recrutamento por base de dados ICD-10 da USF e justificação clínica das escolhas, com adição de critérios pela equipa
+- **Redação das intervenções** — geração de texto em 4 parágrafos sobre o funcionamento dos grupos, critérios de descontinuação, estratégias de retenção e regras de gestão farmacológica pelos médicos de família, com acréscimos da equipa
+- **Análise estatística** — geração da secção completa em 4 parágrafos (justificação amostral pela Regra de Julious, ANCOVA com g de Hedges, testes secundários não paramétricos e limitações estatísticas), com validação metodológica pela equipa
+- **Ética e disseminação** — geração das quatro subsecções (aprovação ética, consentimento informado por documento físico, RGPD e cibersegurança, monitorização de segurança e disseminação) com limiares clínicos críticos definidos e referências CONSORT-EHEALTH, com adição de referências e ajustes pela equipa
 - **Correção do ficheiro LaTeX** — identificação da ausência de `\usepackage{graphicx}` e sintaxe incorreta das citações
 
 ### Prompts Utilizados
