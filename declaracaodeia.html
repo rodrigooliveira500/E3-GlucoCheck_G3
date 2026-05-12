@@ -214,7 +214,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="para-que-foi-usada" class="level3">
 <h3 class="anchored" data-anchor-id="para-que-foi-usada">Para Que Foi Usada</h3>
-<p>– <strong>Redação do título e racional clínico</strong> — geração de texto estruturado em 4 parágrafos (contextualização da DMT2, evidência sobre apps mHealth, lacuna na literatura e objetivos do ensaio), com revisão crítica e adição de referências pela equipa - <strong>Desenho do estudo e estruturação dos objetivos</strong> — geração de texto sobre o desenho RCT paralelo, ratio de randomização, duração e setting, seguida de lista categorizada de objetivos primários e secundários, reformulada pela equipa com maior precisão metodológica - <strong>Critérios de inclusão e exclusão e recrutamento</strong> — geração de texto com parâmetros quantitativos de elegibilidade, processo de recrutamento por base de dados ICD-10 da USF e justificação clínica das escolhas, com adição de critérios pela equipa - <strong>Redação das intervenções</strong> — geração de texto em 4 parágrafos sobre o funcionamento dos grupos, critérios de descontinuação, estratégias de retenção e regras de gestão farmacológica pelos médicos de família, com acréscimos da equipa - <strong>Análise estatística</strong> — geração da secção completa em 4 parágrafos (justificação amostral pela Regra de Julious, ANCOVA com g de Hedges, testes secundários não paramétricos e limitações estatísticas), com validação metodológica pela equipa - <strong>Ética e disseminação</strong> — geração das quatro subsecções (aprovação ética, consentimento informado por documento físico, RGPD e cibersegurança, monitorização de segurança e disseminação) com limiares clínicos críticos definidose referências CONSORT-EHEALTH, com adição de referências e ajustes pela equipa - <strong>Correção do ficheiro LaTeX</strong> — identificação da ausência de <code>\usepackage{graphicx}</code> e sintaxe incorreta das citações</p>
+<ul>
+<li><strong>Redação do título e racional clínico</strong> — geração de texto estruturado em 4 parágrafos (contextualização da DMT2, evidência sobre apps mHealth, lacuna na literatura e objetivos do ensaio), com revisão crítica e adição de referências pela equipa</li>
+<li><strong>Desenho do estudo e estruturação dos objetivos</strong> — geração de texto sobre o desenho RCT paralelo, ratio de randomização, duração e setting, seguida de lista categorizada de objetivos primários e secundários, reformulada pela equipa com maior precisão metodológica</li>
+<li><strong>Critérios de inclusão e exclusão e recrutamento</strong> — geração de texto com parâmetros quantitativos de elegibilidade, processo de recrutamento por base de dados ICD-10 da USF e justificação clínica das escolhas, com adição de critérios pela equipa</li>
+<li><strong>Redação das intervenções</strong> — geração de texto em 4 parágrafos sobre o funcionamento dos grupos, critérios de descontinuação, estratégias de retenção e regras de gestão farmacológica pelos médicos de família, com acréscimos da equipa</li>
+<li><strong>Análise estatística</strong> — geração da secção completa em 4 parágrafos (justificação amostral pela Regra de Julious, ANCOVA com g de Hedges, testes secundários não paramétricos e limitações estatísticas), com validação metodológica pela equipa</li>
+<li><strong>Ética e disseminação</strong> — geração das quatro subsecções (aprovação ética, consentimento informado por documento físico, RGPD e cibersegurança, monitorização de segurança e disseminação) com limiares clínicos críticos definidose referências CONSORT-EHEALTH, com adição de referências e ajustes pela equipa</li>
+<li><strong>Correção do ficheiro LaTeX</strong> — identificação da ausência de <code>\usepackage{graphicx}</code> e sintaxe incorreta das citações</li>
+</ul>
 </section>
 <section id="prompts-utilizados" class="level3">
 <h3 class="anchored" data-anchor-id="prompts-utilizados">Prompts Utilizados</h3>
@@ -381,7 +389,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Geração do logótipo da aplicação GlucoCheck</td>
 </tr>
 <tr class="odd">
-<td><img src="https://www.perplexity.ai/favicon.ico" width="16"></td>
+<td><img src="https://www.perplexity.ai/favicon.ico" width="16"> <strong>Perplexity AI</strong></td>
 <td>Diagnóstico e resolução de erros técnicos de configuração e publicação</td>
 </tr>
 </tbody>
@@ -391,7 +399,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="para-que-foi-usada-1">Para Que Foi Usada</h3>
 <p>A estrutura do projeto Quarto, o código R de análise, a configuração da navbar e a publicação via GitHub Actions foram desenvolvidos com base nos materiais fornecidos na aula TP9. A IA foi utilizada para:</p>
 <ul>
-<li><strong>Diagnóstico do erro <em>Theme file compilation failed</em></strong> — identificação de um bug do Quarto 1.9.36 no Windows, causado pelo caminho de instalação conter espaços (<code>C:\Program Files\</code>), com recomendação de atualização para a versão 1.9.37</li>
+<li>**Diagnóstico do erro *Theme file compilation failed** — identificação de um bug do Quarto 1.9.36 no Windows, causado pelo caminho de instalação conter espaços (<code>C:\Program Files\</code>), com recomendação de atualização para a versão 1.9.37</li>
 <li><strong>Correção do <code>_quarto.yml</code></strong> — identificação da ausência da secção <code>format:</code>, necessária para que o tema SASS fosse corretamente compilado</li>
 <li><strong>Resolução do erro do branch <code>gh-pages</code></strong> — diagnóstico do erro <em>“the remote origin does not have a branch named gh-pages”</em> e indicação do comando <code>quarto publish gh-pages</code> para inicializar o branch localmente</li>
 <li><strong>Design do website</strong> — apoio ao desenvolvimento do <code>style.css</code>, sugerindo estilos, paletas de cores e melhorias visuais</li>
