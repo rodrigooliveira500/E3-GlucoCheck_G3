@@ -316,7 +316,7 @@ Os resultados serão partilhados de forma transparente, independentemente de con
 
 ---
 
-## Referências
+## 6. Referências
 
 ::: {#refs}
 :::
