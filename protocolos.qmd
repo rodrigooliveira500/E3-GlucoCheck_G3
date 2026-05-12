@@ -1,5 +1,6 @@
 ---
 title: "Protocolo"
+bibliography: referencias.bib
 format: html
 lang: pt-PT
 ---
@@ -312,6 +313,13 @@ Os resultados serão partilhados de forma transparente, independentemente de con
 * **Publicação Académica:** Submissão de um artigo científico a revistas de referência em *Digital Health* ou Diabetologia (ex: *JMIR* ou *Diabetes Care*), seguindo as normas CONSORT-EHEALTH [@eysenbach2011].
 * **Transferência de Conhecimento:** Apresentação dos resultados em congressos nacionais da Sociedade Portuguesa de Diabetologia [@spd2023diabetes].
 * **Retorno aos Participantes:** No final dos 6 meses, os participantes receberão um infográfico individual resumindo a evolução do seu controlo glicémico e os resultados globais do estudo.
+
+---
+
+## Referências
+
+::: {#refs}
+:::
 
 ---
 
