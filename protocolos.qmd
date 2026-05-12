@@ -12,7 +12,7 @@ lang: pt-PT
 
 Eficácia da aplicação Glucocheck na otimização do controlo glicémico em pacientes com diabetes Mellitus tipo 2 
 
-### Título Curto
+### Título Abreviado
 
 GlucoCheck: Controlo Glicémico na DMT2
 
