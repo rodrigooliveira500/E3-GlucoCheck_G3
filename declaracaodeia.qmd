@@ -21,7 +21,7 @@ No âmbito do projeto GlucoCheck, a equipa recorreu a ferramentas de Inteligênc
 
 ### Para Que Foi Usada
 
--- **Redação do título e racional clínico** — geração de texto estruturado 
+- **Redação do título e racional clínico** — geração de texto estruturado 
 em 4 parágrafos (contextualização da DMT2, evidência sobre apps mHealth, 
 lacuna na literatura e objetivos do ensaio), com revisão crítica e adição 
 de referências pela equipa
@@ -353,13 +353,13 @@ Todas as sugestões da IA foram avaliadas criticamente e em múltiplas instânci
 | <img src="https://chat.openai.com/favicon.ico" width="16"/> **ChatGPT (OpenAI)** | Revisão de código R e estruturação de páginas Quarto |
 | <img src="https://github.com/favicon.ico" width="16"/> **GitHub Copilot** | Sugestões de código durante o desenvolvimento do website |
 | <img src="https://ssl.gstatic.com/images/branding/product/1x/gemini_48dp.png" width="16"/> **Gemini Pro (Google)** | Geração do logótipo da aplicação GlucoCheck |
-| <img src="https://www.perplexity.ai/favicon.ico" width="16"/> | Diagnóstico e resolução de erros técnicos de configuração e publicação |
+| <img src="https://www.perplexity.ai/favicon.ico" width="16"/> **Perplexity AI** | Diagnóstico e resolução de erros técnicos de configuração e publicação |
 
 ### Para Que Foi Usada
 
 A estrutura do projeto Quarto, o código R de análise, a configuração da navbar e a publicação via GitHub Actions foram desenvolvidos com base nos materiais fornecidos na aula TP9. A IA foi utilizada para:
 
-- **Diagnóstico do erro *Theme file compilation failed*** — identificação de um bug do Quarto 1.9.36 no Windows, causado pelo caminho de instalação conter espaços (`C:\Program Files\`), com recomendação de atualização para a versão 1.9.37
+- **Diagnóstico do erro *Theme file compilation failed** — identificação de um bug do Quarto 1.9.36 no Windows, causado pelo caminho de instalação conter espaços (`C:\Program Files\`), com recomendação de atualização para a versão 1.9.37
 - **Correção do `_quarto.yml`** — identificação da ausência da secção `format:`, necessária para que o tema SASS fosse corretamente compilado
 - **Resolução do erro do branch `gh-pages`** — diagnóstico do erro *"the remote origin does not have a branch named gh-pages"* e indicação do comando `quarto publish gh-pages` para inicializar o branch localmente
 - **Design do website** — apoio ao desenvolvimento do `style.css`, sugerindo estilos, paletas de cores e melhorias visuais
