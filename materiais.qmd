@@ -78,12 +78,28 @@ O dicionário de dados contém todas as variáveis recolhidas no estudo, com val
 
 ### Aplicação GlucoCheck
 
-A aplicação móvel GlucoCheck integra as seguintes funcionalidades:
+Para ilustrar a intervenção digital proposta no nosso ensaio clínico, desenvolvemos
+um protótipo de alta fidelidade da aplicação móvel **GlucoCheck**. O design foi
+pensado especificamente para reduzir a carga cognitiva da nossa população-alvo —
+adultos com Diabetes Mellitus Tipo 2, com idades entre os 40 e os 75 anos —
+garantindo uma interface intuitiva e acessível mesmo para utilizadores com menor
+literacia digital.
 
-- Sincronização automática com glucómetro via Bluetooth
-- Registo alimentar com feedback nutricional
-- Objetivos glicémicos semanais personalizdos
-- Mensagens motivacionais baseadas em progresso
-- Educação nutricional adaptativa
-- Gráficos de evolução de HbA1c estimada
-- Alertas para padrões glicémicos problemáticos
+O fluxo principal demonstrado no protótipo foca-se nas três funcionalidades-chave
+da nossa intervenção:
+
+- **Monitorização glicémica** — registo de medições via sincronização Bluetooth com
+o glucómetro, com feedback imediato sobre se o valor está dentro do intervalo alvo
+e alertas automáticos para padrões de risco (hipoglicemia \<54 mg/dL ou
+hiperglicemia \>300 mg/dL);
+- **Registo alimentar** — introdução de refeições com feedback nutricional
+automatizado e objetivos semanais personalizados, com sugestões baseadas nas
+preferências individuais do utilizador;
+- **Acompanhamento da HbA1c** — registo do último resultado laboratorial com
+visualização de gráficos de tendência para monitorização do controlo glicémico a
+longo prazo.
+
+Ao aceder ao link abaixo, pode navegar interativamente pelos ecrãs da nossa
+aplicação:
+
+[Clique aqui para visualizar os ecrãs da app GlucoCheck](https://www.figma.com/proto/Xu5fV6mrZuON9ZNeA1l0p8/Sem-t%C3%ADtulo?node-id=0-1&t=mUf9WuxBwzcke55l-1)
