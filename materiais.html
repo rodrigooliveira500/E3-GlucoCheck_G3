@@ -175,8 +175,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="instrumentos-de-recolha-de-dados">Instrumentos de Recolha de Dados</h2>
 <section id="ecrf---redcap" class="level3">
 <h3 class="anchored" data-anchor-id="ecrf---redcap">eCRF - REDCap</h3>
-<p>O formulário eCRF foi desenvolvido na plataforma REDCap e inclui 8 formulários correspondentes às diferentes etapas do percurso do participante no estudo.</p>
-<p><a href="ficheiros/ecrf.pdf">📄 Descarregar formulário eCRF (PDF)</a></p>
+<p>O formulário eletrónico de recolha de dados (eCRF) foi desenvolvido na plataforma REDCap e estruturado em 8 formulários sequenciais:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 52%">
@@ -215,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>Escalas</td>
-<td>Diabetes empowerment Scale - Short Form (DES-SF)</td>
+<td>Diabetes Empowerment Scale - Short Form (DES-SF)</td>
 </tr>
 <tr class="even">
 <td>Feedback</td>
@@ -227,10 +226,20 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="principais-características-técnicas">Principais características técnicas</h4>
 <ul>
 <li><strong>Lógica condicional (<em>Branching Logic</em>):</strong> os campos relativos à app GlucoCheck apenas são apresentados ao grupo de intervenção; motivos de exclusão e descontinuação surgem exclusivamente quando aplicável.</li>
-<li><strong>Campos calculados (<span class="citation" data-cites="READONLY">@READONLY</span>):</strong> IMC, elegibilidade, score médio DES-SF e alertas clínicos calculados automaticamente.</li>
+<li><strong>Campos calculados (<code>@READONLY</code>):</strong> IMC, elegibilidade, score médio DES-SF e alertas clínicos calculados automaticamente.</li>
 <li><strong>Validação de intervalos:</strong> todos os parâmetros clínicos têm limites fisiológicos definidos (ex: HbA1c entre 7,0% e 9,5% na triagem; glicemia entre 40 e 500 mg/dL).</li>
 <li><strong>Marcação de dados sensíveis:</strong> campos identificadores marcados com a propriedade <em>Identifier</em> em conformidade com o RGPD.</li>
 </ul>
+</section>
+<section id="formulário-ecrf-pdf" class="level4">
+<h4 class="anchored" data-anchor-id="formulário-ecrf-pdf">Formulário eCRF (PDF)</h4>
+<p>O documento completo do eCRF exportado do REDCap está disponível para consulta abaixo:</p>
+<p><a href="eCRF.pdf" class="btn btn-outline-primary">📄 Descarregar eCRF GlucoCheck (PDF)</a></p>
+<iframe src="eCRF.pdf" width="100%" height="700px" style="border: 1px solid #dee2e6; border-radius: 6px; margin-top: 1rem;">
+  <p>O teu browser não suporta visualização de PDF inline.
+  <a href="eCRF.pdf">Clica aqui para descarregar o ficheiro.</a></p>
+</iframe>
+<hr>
 </section>
 </section>
 <section id="escala-des-sf" class="level3">
@@ -278,6 +287,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
 <section id="dicionário-de-dados" class="level3">
 <h3 class="anchored" data-anchor-id="dicionário-de-dados">Dicionário de Dados</h3>
@@ -312,7 +322,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Identificação</td>
 <td>Data</td>
 <td>Data de admissão</td>
-<td>AAAA-MM-DD; <span class="citation" data-cites="TODAY">@TODAY</span></td>
+<td>AAAA-MM-DD; <code>@TODAY</code></td>
 </tr>
 <tr class="odd">
 <td><code>idade</code></td>
@@ -354,7 +364,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Triagem</td>
 <td>Calculado</td>
 <td>Elegibilidade automática</td>
-<td><span class="citation" data-cites="READONLY">@READONLY</span></td>
+<td><code>@READONLY</code></td>
 </tr>
 <tr class="odd">
 <td><code>grupo</code></td>
@@ -382,7 +392,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Baseline</td>
 <td>Calculado</td>
 <td>IMC inicial</td>
-<td><span class="citation" data-cites="READONLY">@READONLY</span></td>
+<td><code>@READONLY</code></td>
 </tr>
 <tr class="odd">
 <td><code>glice_v0</code></td>
@@ -410,7 +420,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Escalas</td>
 <td>Calculado</td>
 <td>Score médio DES-SF</td>
-<td><span class="citation" data-cites="READONLY">@READONLY</span>, 1 casa decimal</td>
+<td><code>@READONLY</code>, 1 casa decimal</td>
 </tr>
 <tr class="odd">
 <td><code>alerta_clinico</code></td>
