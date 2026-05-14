@@ -6,7 +6,10 @@ lang: pt-PT
 
 # Materiais do Estudo
 
-Esta página reúne todos os materiais produzidos no âmbito do estudo GlucoCheck, organizados pelas diferentes componentes do projeto: instrumentos de recolha de dados, dicionário de dados, diagramas da aplicação e documentação do eCRF desenvolvido em REDCap.
+Esta página reúne todos os materiais produzidos no âmbito do estudo GlucoCheck,
+organizados pelas diferentes componentes do projeto: instrumentos de recolha de
+dados, dicionário de dados, diagramas da aplicação e documentação do eCRF
+desenvolvido em REDCap.
 
 ---
 
@@ -14,7 +17,8 @@ Esta página reúne todos os materiais produzidos no âmbito do estudo GlucoChec
 
 ### eCRF - REDCap
 
-O formulário eletrónico de recolha de dados (eCRF) foi desenvolvido na plataforma REDCap e estruturado em 8 formulários sequenciais:
+O formulário eletrónico de recolha de dados (eCRF) foi desenvolvido na plataforma
+REDCap e estruturado em 8 formulários sequenciais:
 
 | Formulário | Descrição |
 |------------|-----------|
@@ -24,22 +28,44 @@ O formulário eletrónico de recolha de dados (eCRF) foi desenvolvido na platafo
 | Baseline (T0) | Avaliação física inicial e configuração da app |
 | Seguimento M3 | Reavaliação aos 3 meses |
 | Seguimento M6 | Avaliação final aos 6 meses |
-| Escalas | Diabetes empowerment Scale - Short Form (DES-SF) |
+| Escalas | Diabetes Empowerment Scale - Short Form (DES-SF) |
 | Feedback | Satisfação com a aplicação GlucoCheck |
 
 #### Principais características técnicas
 
-- **Lógica condicional (*Branching Logic*):** os campos relativos à app GlucoCheck apenas são apresentados ao grupo de intervenção; motivos de exclusão e descontinuação surgem exclusivamente quando aplicável.
-- **Campos calculados (@READONLY):** IMC, elegibilidade, score médio DES-SF e alertas clínicos calculados automaticamente.
-- **Validação de intervalos:** todos os parâmetros clínicos têm limites fisiológicos definidos (ex: HbA1c entre 7,0% e 9,5% na triagem; glicemia entre 40 e 500 mg/dL).
-- **Marcação de dados sensíveis:** campos identificadores marcados com a propriedade *Identifier* em conformidade com o RGPD.
+- **Lógica condicional (*Branching Logic*):** os campos relativos à app GlucoCheck
+apenas são apresentados ao grupo de intervenção; motivos de exclusão e
+descontinuação surgem exclusivamente quando aplicável.
+- **Campos calculados (`@READONLY`):** IMC, elegibilidade, score médio DES-SF e
+alertas clínicos calculados automaticamente.
+- **Validação de intervalos:** todos os parâmetros clínicos têm limites fisiológicos
+definidos (ex: HbA1c entre 7,0% e 9,5% na triagem; glicemia entre 40 e 500 mg/dL).
+- **Marcação de dados sensíveis:** campos identificadores marcados com a propriedade
+*Identifier* em conformidade com o RGPD.
+
+#### Formulário eCRF (PDF)
+
+O documento completo do eCRF exportado do REDCap está disponível para consulta abaixo:
+
+[📄 Descarregar eCRF GlucoCheck (PDF)](eCRF.pdf){.btn .btn-outline-primary}
+
+```{=html}
+<iframe src="eCRF.pdf" width="100%" height="700px" style="border: 1px solid #dee2e6; border-radius: 6px; margin-top: 1rem;">
+  <p>O teu browser não suporta visualização de PDF inline.
+  <a href="eCRF.pdf">Clica aqui para descarregar o ficheiro.</a></p>
+</iframe>
+```
+
+---
 
 ### Escala DES-SF
 
-A **Diabetes Empowerment Scale Short Form** (DES-SF) é composta por 8 itens avaliados numa escala de Likert de 5 pontos (1 = Discordo Totalmente; 5 = Concordo Totalmente), aplicada no baseline e aos 6 meses.
+A **Diabetes Empowerment Scale Short Form** (DES-SF) é composta por 8 itens
+avaliados numa escala de Likert de 5 pontos (1 = Discordo Totalmente;
+5 = Concordo Totalmente), aplicada no baseline e aos 6 meses.
 
 | # | Item |
-|---|---|
+|---|------|
 | 1 | Consigo escolher metas |
 | 2 | Consigo lidar com aspetos emocionais |
 | 3 | As metas são atingíveis |
@@ -49,28 +75,31 @@ A **Diabetes Empowerment Scale Short Form** (DES-SF) é composta por 8 itens ava
 | 7 | Peço ajuda quando preciso |
 | 8 | Lido com o stress da diabetes |
 
+---
+
 ### Dicionário de Dados
 
-O dicionário de dados contém todas as variáveis recolhidas no estudo, com validações, lógica condicional e campos calculados.
+O dicionário de dados contém todas as variáveis recolhidas no estudo, com
+validações, lógica condicional e campos calculados.
 
 | Variável | Formulário | Tipo | Descrição | Validação |
 |---|---|---|---|---|
 | `record_id` | Identificação | Texto | ID do participante | Inteiro, obrigatório |
-| `data_adm` | Identificação | Data | Data de admissão | AAAA-MM-DD; @TODAY |
+| `data_adm` | Identificação | Data | Data de admissão | AAAA-MM-DD; `@TODAY` |
 | `idade` | Identificação | Texto | Idade em anos | Inteiro, 40–75 |
 | `genero` | Identificação | Rádio | Género | Feminino / Masculino / Outro |
 | `ic_confirmado` | Consentimento | Sim/Não | Consentimento formalizado | Obrigatório |
 | `hba1c_v0` | Triagem | Texto | HbA1c inicial (%) | Decimal, 7,0–9,5 |
 | `insulina` | Triagem | Sim/Não | Faz insulinoterapia? | Campo de exclusão |
-| `elegivel` | Triagem | Calculado | Elegibilidade automática | @READONLY |
+| `elegivel` | Triagem | Calculado | Elegibilidade automática | `@READONLY` |
 | `grupo` | Triagem | Rádio | Grupo de estudo | GlucoCheck (1) / Controlo (0) |
 | `peso_v0` | Baseline | Texto | Peso inicial (kg) | Decimal, 30–250 |
 | `altura_v0` | Baseline | Texto | Altura (cm) | Inteiro, 100–250 |
-| `bmi_v0` | Baseline | Calculado | IMC inicial | @READONLY |
+| `bmi_v0` | Baseline | Calculado | IMC inicial | `@READONLY` |
 | `glice_v0` | Baseline | Texto | Glicemia em jejum (mg/dL) | Inteiro, 40–500 |
 | `hba1c_v3` | Seguimento M3 | Texto | HbA1c aos 3 meses (%) | Decimal, 4,0–16,0 |
 | `hba1c_v6` | Seguimento M6 | Texto | HbA1c final (%) | Decimal, 4,0–16,0 |
-| `des_total` | Escalas | Calculado | Score médio DES-SF | @READONLY, 1 casa decimal |
+| `des_total` | Escalas | Calculado | Score médio DES-SF | `@READONLY`, 1 casa decimal |
 | `alerta_clinico` | Feedback | Calculado | Alerta glicemia crítica | ALERTA se < 54 ou > 300 mg/dL |
 | `alerta_hba1c` | Feedback | Calculado | Alerta HbA1c final | ALERTA se HbA1c > 9,5% |
 
