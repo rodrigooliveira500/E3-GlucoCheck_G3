@@ -14,7 +14,9 @@ Esta página reúne todos os materiais produzidos no âmbito do estudo GlucoChec
 
 ### eCRF - REDCap
 
-O formulário eletrónico de recolha de dados (eCRF) foi desenvolvido na plataforma REDCap e estruturado em 8 formulários sequenciais:
+O formulário eCRF foi desenvolvido na plataforma REDCap e inclui 8 formulários correspondentes às diferentes etapas do percurso do participante no estudo.
+
+[📄 Descarregar formulário eCRF (PDF)](ficheiros/ecrf.pdf)
 
 | Formulário | Descrição |
 |------------|-----------|
