@@ -1,8 +1,8 @@
 project:
   type: website
   output-dir: docs
-    resources:
-      - "eCRF.pdf"
+  resources:
+    - "eCRF.pdf"
 
 website:
   title: "Ensaio GlucoCheck"
